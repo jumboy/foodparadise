@@ -1,0 +1,70 @@
+body{
+	background-color: #45453D;
+    padding: 25px 50px 25px 50px;
+}
+
+.page-wrap {
+	background-color: #FFFFFF;
+	padding: 20px;
+	overflow: hidden;
+}
+
+h1{
+	font-family: Georgia;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+
+h2{
+	color: #FFFFFF;
+}
+
+h3{
+	font-family: inherit, sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.title-container {
+	float: left;
+	width: 70%;
+}
+
+nav {
+	float: right;
+	width: 30%;
+	margin-top: 48px;
+	overflow: hidden;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	overflow: hidden;
+}
+
+li a {
+	color: #FFFFFF;
+	font-family: Calibri, sans-serif;
+	text-decoration: none;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+li a:hover {
+	color: #FFFF29;
+}
+
+.row, .row:before, .row:after {
+	content=""
+	display: table;
+	clear: both;
+	overflow: hidden;
+}
+
+.right-container {
+	width: 50%;
+	float: right;
+	overflow: hidden;
+}
